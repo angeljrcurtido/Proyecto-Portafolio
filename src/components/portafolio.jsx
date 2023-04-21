@@ -244,22 +244,22 @@ function Portafolio() {
                         </p>
                         <h5>Optimizado para </h5>
                         <p id="browsers">
-                            <a href="#">
+                            <a>
                                 <img src={firefox} alt="Firefox" title="Firefox" />
                             </a>
-                            <a href="#">
+                            <a>
                                 <img src={chrome} alt="Chrome" title="Chrome" />
                             </a>
-                            <a href="#">
+                            <a>
                                 <img src={opera} alt="Opera" title="Opera" />
                             </a>
-                            <a href="#">
+                            <a>
                                 <img src={safari} alt="Safari" title="Safari" />
                             </a>
-                            <a href="#">
+                            <a>
                                 <img src={android} alt="Android" title="Android" />
                             </a>
-                            <a href="#">
+                            <a>
                                 <img src={ios} alt="Apple" title="Apple" />
                             </a>
 
