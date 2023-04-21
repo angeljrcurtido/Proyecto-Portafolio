@@ -1,0 +1,927 @@
+/*FUENTES*/
+@font-face {
+  font-family: "TrebuchetMS";
+  src: url('../fonts/TrebuchetMS.ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "BebasNeue";
+  src: url('../fonts/BebasNeue.otf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "WebSymbolsRegular";
+  src: url('../fonts/websymbols-regular-webfont.eot');
+  src: url('../fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/websymbols-regular-webfont.woff') format('woff'),
+    url('../fonts/websymbols-regular-webfont.ttf') format('truetype'),
+    url('../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.body {
+  background: url("../imagenes/pattern.png");
+}
+
+/*INICIO BANNER*/
+.banner {
+  width: 95.5%;
+  height: 100px;
+  border: 10px solid white;
+  box-shadow: 0px 0px 2px gray;
+  background: #198754;
+  background-position: -200px -200px;
+  margin: 20px auto;
+  animation: backBanner 10s linear;
+}
+
+@keyframes backBanner {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: -200px -200px;
+  }
+}
+
+.banner h1 {
+  display: block;
+  width: 850px;
+  font-family: "BebasNeue";
+  color: white;
+  font-weight: normal;
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin: 17px auto;
+  text-shadow: 2px 2px 1px black;
+  overflow: hidden;
+  animation: showText 10s linear;
+}
+
+@keyframes showText {
+  0% {
+    transform: translateX(-600%) scale(5, 5);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateX(600%) scale(5, 5);
+    opacity: 1;
+  }
+
+  75% {
+    transform: translateX(-600%) scale(5, 5);
+    text-shadow: none;
+    color: transparent;
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%) scale(1, 1);
+    text-shadow: 2px 2px 1px black;
+    color: white;
+    opacity: 1;
+
+  }
+}
+
+/*FIN BANNER*/
+
+/*CABECERA*/
+#header {
+  width: 100%;
+  height: 70px;
+  background-color: #198754;
+  color: white;
+  font-family: "BebasNeue"
+}
+
+#logo {
+  float: left;
+  background-color: #0b3e31;
+  text-align: center;
+  margin-top: 5px;
+  margin-left: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 300ms;
+}
+
+#logo:hover {
+  border-radius: 2px;
+  color: black;
+  background-color: #ccc;
+
+}
+
+#logo .gear {
+  font-family: "WebSymbolsRegular";
+  display: block;
+  float: left;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 26px;
+  animation-name: rotate-gear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotate-gear {
+  from {
+    transform: rotateZ(0deg);
+  }
+
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+#logo:hover .gear {
+  animation: fromBellow 500ms linear;
+
+}
+
+@keyframes fromBellow {
+  0% {
+    transform: translateY(0%);
+  }
+
+  50% {
+    transform: translateY(200%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+#logo h3 {
+  display: block;
+  float: right;
+  font-size: 40px;
+  margin-top: 5px;
+  transition: all 300ms;
+  margin-right: 65px;
+}
+
+#logo:hover h3 {
+  animation: fromRight 300ms linear;
+}
+
+@keyframes fromRight {
+  from {
+    transform: translateX(200%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+#menu {
+  float: right;
+  height: 70px;
+  background: #198754;
+}
+
+#menu ul li {
+  font-size: 24px;
+  display: inline-block;
+  margin: 0px 20px 0px 20px;
+  letter-spacing: 1px;
+  line-height: 75px;
+}
+
+.form-control {
+  width: 70%;
+}
+
+#menu ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  transition: all 300ms;
+}
+
+#menu ul li a:hover {
+  color: white;
+  transform: scale(1.2, 1.2);
+}
+
+/*FIN CABECERA*/
+/*BOTON DESCARGAR CV*/
+.botondescarga {
+  border: 1px solid grey;
+  border-radius: 1%;
+  width: 60%;
+  height: 100px;
+  margin-top: 60px;
+  line-height: 100px;
+  text-align: center;
+  transition: all 1s;
+  margin-left: 20%;
+}
+
+.botondescarga a {
+  display: block;
+  font-family: "BebasNeue";
+  font-size: 40px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  color: #00538c;
+  transition: all 1s;
+}
+
+.botondescarga:hover {
+  background-color: #333;
+  border: 10px solid #37bcf9;
+  border-radius: 240px;
+  box-shadow: 0px 0px 10px gray;
+  animation: blink 10s infinite linear;
+
+}
+
+@keyframes blink {
+  0% {
+    border: 10px solid #37bcf9;
+  }
+
+  25% {
+    border: 10px solid green;
+  }
+
+  50% {
+    border: 10px solid yellow;
+  }
+
+  75% {
+    border: 10px solid white;
+  }
+
+  100% {
+    border: 10px solid #37bcf9;
+  }
+
+
+}
+
+.botondescarga:hover a {
+  color: white;
+  text-shadow: 1px 1px 1px black, 1px 2px 1px black, 1px 3px 1px black, 1px 4px 1px black, 1px 5px 1px black, 1px 6px 1px black;
+
+}
+
+/*FIN DESCARGAR CV*/
+.portafolio {
+  margin-right: 54%;
+}
+
+.portafolio p {
+  text-align: justify;
+}
+
+
+.skill-logo {
+  width: 50% !important;
+  text-align: center;
+  padding: 10px;
+}
+
+.skill-logo img {
+  border-radius: 50%;
+
+  height: auto;
+}
+
+.skill-logo .contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.subcaja1 {
+  display: flex;
+}
+
+.circulo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #000;
+  overflow: hidden;
+}
+
+.circulo img {
+  width: 100%;
+  height: auto;
+}
+
+.Nombre {
+  font-family: sans-serif;
+  margin-top: 8%;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.botones {
+  display: flex;
+}
+
+.botones button {
+  margin-right: 10px;
+}
+
+.tooltip {
+  transition: 1s;
+  position: relative;
+  display: inline-block;
+}
+
+.card {
+  margin-left: 1%;
+  margin-top: 1%;
+  width: 300px;
+  /* Ajusta el ancho según tus necesidades */
+}
+
+.subcaja2 {
+  display: flex;
+}
+
+
+
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+
+.logo-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.logo-circle img {
+  max-width: 60px;
+  max-height: 60px;
+}
+
+.logo-circle p {
+  color: white;
+  font-size: 40px;
+  line-height: normal;
+  margin: 0;
+}
+
+/*INICIO DE STACKS SERVICIOS*/
+
+
+
+.misservicios h2 {
+
+  display: block;
+  width: 60%;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  font-family: "BebasNeue";
+  font-size: 40px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  background: #198754;
+  box-shadow: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f, 3px 4px 0px #393d3f;
+  margin: 0px auto;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/*FIN DE STACKS SERVICIOS*/
+.Proyectos {
+  display: flex;
+}
+
+/*TARJETAS*/
+.card {
+  float: left;
+  width: 205px;
+  height: 305px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 2px #ddd;
+  background: white;
+  cursor: pointer;
+  overflow: hidden;
+  margin: 22px;
+  margin-top: 40px;
+  transition: all 300ms;
+}
+
+.card:hover {
+  background: #198754;
+}
+
+.card:last-child {
+  margin-right: 0px;
+}
+
+.card .icon {
+  font-family: "WebSymbolsRegular";
+  display: block;
+  width: 100%;
+  height: 130px;
+  font-size: 50px;
+  line-height: 110px;
+  text-align: center;
+  margin: 0px auto;
+  transition: all 300ms;
+}
+
+.card:hover .icon {
+  color: aliceblue;
+  font-size: 70px;
+
+  animation: showIcon 300ms linear;
+
+}
+
+@keyframes showIcon {
+  from {
+    transform: translateY(-200%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+}
+
+
+.card .category {
+  width: 100%;
+  height: 50px;
+  font-family: "TrebuchetMS";
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  transition: all 300ms;
+}
+
+.card:hover .category {
+  color: white;
+  animation: showCategory 400ms linear;
+
+}
+
+@keyframes showCategory {
+  from {
+    transform: translateY(-300%);
+    color: black;
+  }
+
+  to {
+    transform: translateY(0%);
+    color: white;
+
+  }
+}
+
+.card .description {
+  text-align: center;
+  color: black;
+  font-family: "TrebuchetMS";
+  font-size: 11px;
+  transition: all 300ms;
+}
+
+.card:hover .description {
+  color: white;
+  animation: showDescription 400ms linear;
+}
+
+@keyframes showDescription {
+  from {
+    transform: translateX(-300%);
+    color: black;
+
+  }
+
+  to {
+    transform: translateX(0%);
+    color: white;
+  }
+}
+
+/*TARJETAS*/
+
+
+/*EMAIL*/
+
+.formularioemail {
+  display: flex;
+}
+
+.emails {
+  flex: 1;
+  text-align: initial;
+}
+
+
+.formularioemail .misservicios {
+  flex: 1;
+}
+
+.btn.btn-success.mt-1 {
+  margin-left: 30%;
+  margin-bottom: 2%;
+}
+
+
+/*FIN EMAIL*/
+
+/*Redes Sociales*/
+#social {
+  height: 190px;
+}
+
+#social a {
+  font-family: "WebSymbolsRegular";
+  display: block;
+  color: #555;
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#social .overlay {
+  display: block;
+  height: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 1px #ccc;
+  border: 3px solid white;
+  box-shadow: 0px 0px 4px #ccc;
+  background: #F4f7fe;
+  position: absolute;
+  padding: 5px;
+  margin-left: 28%;
+  margin-top: -52px;
+  cursor: pointer;
+  transform: translateX(-80%);
+  opacity: 0;
+  transition: all 400ms;
+}
+
+#social div:hover .overlay {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+.aside-box {
+  width: 85%;
+  height: 240px;
+  margin: 0px auto;
+  margin-top: 20px;
+  padding-top: 2px;
+  background: white;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.3), 0px 1px 0px white inset, 0px -3px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+.formularioemail .misservicios h2 {
+  width: 81%;
+  height: 42px;
+  margin-top: 0px;
+  line-height: 51px;
+}
+
+/*Fin Redes Sociales*/
+
+/*FOOTER*/
+#footer {
+  width: 100%;
+  height: 470px;
+  background: black;
+  color: white;
+  overflow: hidden;
+
+}
+
+.wrap2 {
+  display: flex;
+}
+
+#menu_footer {
+  padding-right: 7%;
+  flex: 1;
+}
+
+#info {
+  flex: 1;
+}
+
+#footer .wrap2>div {
+  float: left;
+  width: 320px;
+  height: 370px;
+  margin: 40px;
+  text-align: center;
+  color: white;
+  font-family: "TrebuchetMS";
+}
+
+#footer a {
+  text-decoration: none;
+  color: #37bcf9;
+  transition: all 300ms;
+}
+
+#footer h5 {
+  display: block;
+  background: url("../imagenes/pxgray.png"), white;
+  height: 50px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-family: "BebasNeue";
+  font-size: 40px;
+  line-height: 55px;
+  color: black;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+#footer ul {
+  text-align: left;
+  margin: 20px;
+  font-size: 25px;
+
+}
+
+#footer ul li {
+  margin-top: 10px;
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+
+}
+
+#footer ul li a {
+  display: block;
+  height: 40px;
+  transition: all 300ms;
+}
+
+#footer ul li:hover a {
+  padding-left: 40px;
+  color: white;
+  width: 100%;
+}
+
+#footer iframe {
+  width: 100%;
+  height: 300px;
+  margin-top: 10px;
+  border-radius: 5px;
+  box-shadow: 5px solid white;
+
+}
+
+#footer img {
+  margin-bottom: 15px;
+
+}
+
+#footer #browsers img {
+  width: 45px;
+}
+
+@media (max-width:769px) {
+  #logo h3 {
+    margin-right: 9px;
+  }
+
+  .banner h1 {
+    width: 731px;
+  }
+
+  .card .description {
+    font-size: 9px;
+  }
+
+  #footer #browsers img {
+    width: 32px;
+  }
+}
+
+@media (max-width:710px) {
+  #logo {
+    margin-left: 4px;
+  }
+
+  .banner h1 {
+    width: 651px;
+  }
+
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #header {
+    height: 139px;
+  }
+
+  .Proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card .category {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:661px) {
+  .banner h1 {
+    width: 610px;
+  }
+
+  #footer h5 {
+    width: 230px;
+  }
+
+  #info p img {
+    width: 200px;
+  }
+}
+
+@media (max-width:649px) {
+  .banner h1 {
+    font-size: 239%;
+  }
+
+  #footer h5 {
+    width: 215px;
+  }
+}
+
+@media (max-width:612px) {
+  .banner h1 {
+    width: 550px;
+  }
+
+  #footer h5 {
+    width: 200px;
+    font-size: 145%;
+  }
+
+}
+
+@media (max-width:592px) {
+  #footer h5 {
+    width: 174px;
+  }
+
+  #info p img {
+    width: 179px;
+  }
+
+  #footer #browsers img {
+    width: 24px;
+  }
+}
+
+@media (max-width: 566px) {
+  #footer h5 {
+    width: 138px;
+    font-size: 96%;
+}
+#info p img {
+  width: 150px;
+}
+.banner h1 {
+  width: 518px;
+}
+.card {
+  height: 308px;
+}
+.card .description {
+  display: none;
+}
+.card .category {
+  font-size: 74%;
+}
+.misservicios h2 {
+  font-size: 176%;
+}
+}
+
+@media (max-width:541px) {
+  .banner h1 {
+    font-size: 186%;
+
+  }
+}
+
+@media (max-width: 524px) {
+  #footer h5 {
+    width: 109px;
+    font-size: 79%;
+}
+#info p img {
+    width: 123px;
+}
+#footer #browsers img {
+    width: 19px;
+}
+.card .icon {
+  font-size: 35px;
+}
+.banner h1 {
+  font-size: 171%;
+  width: 518px; 
+}
+}
+
+@media (max-width: 485px) {
+  .banner h1 {
+   font-size: 137%;
+    width: 374px;
+    margin-top: 7%;
+}
+.botondescarga a {
+  font-size: 35px;
+}
+#info p img {
+    width: 104px;
+}
+#footer #browsers img {
+    width: 15px;
+}
+#menu ul li {
+  font-size: 19px;
+}
+#footer .wrap2>div {
+  margin: 11px;
+}
+.card {
+      width: 84px;
+    height: 201px;
+    margin: 3px;
+}
+.card:hover .icon {
+    color: aliceblue;
+    font-size: 47px;
+    animation: showIcon 300ms linear;
+}
+#social div:hover .overlay {
+   font-size: 60%;
+}
+.react-pdf__message .react-pdf__message--error {
+  display: none;
+}
+.botondescarga:hover a {
+  font-size: 20px;
+  color: white;
+}
+
+img.card-img-top {
+  width: 283px !important;
+  height: 97px !important;
+  }
+.card-body p {
+  display: none;
+}
+.logo-circle {
+  width: 62px;
+  height: 64px ;
+}
+.skill-logo p {
+ display: none;
+}
+}
