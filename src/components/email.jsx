@@ -26,7 +26,7 @@ function Email() {
     setMensaje('');
   }
   return (
-    <form className='formularioemail' onSubmit={handleSubmit}>
+   <form className='formularioemail' onSubmit={handleSubmit}>
 
       <div className='emails'>
         <div className='misservicios'>
@@ -47,20 +47,20 @@ function Email() {
         <h2>Redes Sociales</h2>
         <div id="social" className="aside-box">
           <div className="twitter">
-            <a href="https://github.com/angeljrcurtido" target="_blank" class="icon">Q</a>
+            <a href="https://github.com/angeljrcurtido" target="_blank"  rel="noopener noreferrer" class="icon">Q</a>
             <p className="overlay">
               Github
             </p>
           </div>
           <div class="facebook">
-            <a href="https://www.facebook.com/junior.curtido" target="_blank" class="icon">f</a>
-            <p class="overlay">
+            <a href="https://www.facebook.com/junior.curtido" target="_blank"  rel="noopener noreferrer" class="icon">f</a>
+            <p className="overlay">
               Facebook
             </p>
           </div>
-          <div class="youtube">
-            <a href="https://www.linkedin.com/in/%E2%99%BE%EF%B8%8F-angel-junior-curtido-qui%C3%B1onez%E2%99%BE%EF%B8%8F-7a410323b" target="_blank" class="icon">l</a>
-            <p class="overlay">
+          <div className="youtube">
+            <a href="https://www.linkedin.com/in/%E2%99%BE%EF%B8%8F-angel-junior-curtido-qui%C3%B1onez%E2%99%BE%EF%B8%8F-7a410323b" target="_blank" rel="noopener noreferrer" class="icon">l</a>
+            <p className="overlay">
               Linkedin
             </p>
           </div>
