@@ -902,4 +902,11 @@
 #social div:hover .overlay {
    font-size: 60%;
 }
+  .botondescarga:hover a {
+  font-size: 20px;
+  color: white;
+}
+  .react-pdf__message .react-pdf__message--error {
+  display: none;
+}
 }
