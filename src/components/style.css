@@ -282,6 +282,10 @@
 
 }
 
+.react-pdf__message .react-pdf__message--error {
+  display: none;
+}
+
 /*FIN DESCARGAR CV*/
 .portafolio {
   margin-right: 54%;
