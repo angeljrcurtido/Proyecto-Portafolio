@@ -283,7 +283,7 @@
 }
 
 .react-pdf__message .react-pdf__message--error {
-  display: none;
+  display: none !important;
 }
 
 /*FIN DESCARGAR CV*/
