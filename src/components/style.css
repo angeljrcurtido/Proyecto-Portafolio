@@ -31,6 +31,10 @@
   background: url("../imagenes/pattern.png");
 }
 
+.react-pdf__Document {
+display:none;
+}
+
 /*INICIO BANNER*/
 .banner {
   width: 95.5%;
