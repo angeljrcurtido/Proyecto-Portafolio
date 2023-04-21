@@ -195,8 +195,8 @@ function Portafolio() {
                     <div className="card-body">
                         <h5 className="card-title">APIRest RickandMorty</h5>
                         <p className="card-title">React Js, APIRest, Boostratp,FlexBox</p>
-                        <a href="https://incandescent-entremet-8c4174.netlify.app" target='_blank' style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
-                        <a href="https://github.com/angeljrcurtido/Rickandmorty" target='_blank' style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
+                        <a href="https://incandescent-entremet-8c4174.netlify.app" target='_blank' rel="noreferrer" style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
+                        <a href="https://github.com/angeljrcurtido/Rickandmorty" target='_blank' rel="noreferrer" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
                 </div>
                 <div class="card" style={{ width: "18rem" }}>
@@ -204,8 +204,8 @@ function Portafolio() {
                     <div className="card-body">
                         <h5 className="card-title">FrontEnd Proyect</h5>
                         <p className="card-title">CSS, Flexbox, Boostratp, Sass, Js</p>
-                        <a href="https://stellar-hotteok-29adaf.netlify.app" target='_blank' style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
-                        <a href="https://github.com/angeljrcurtido/Maquetacion-FrontEnd" target='_blank' style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
+                        <a href="https://stellar-hotteok-29adaf.netlify.app" target='_blank' rel="noreferrer" style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
+                        <a href="https://github.com/angeljrcurtido/Maquetacion-FrontEnd" target='_blank' rel="noreferrer" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
                 </div>
                 <div class="card" style={{ width: "18rem" }}>
@@ -213,8 +213,8 @@ function Portafolio() {
                     <div className="card-body">
                         <h5 className="card-title">Pelis Media</h5>
                         <p className="card-title">React Js, Node Js, Mongoose, Boostratp, JavaScript, </p>
-                        <a href="https://youtu.be/61hknSVA8dQ" target='_blank' style={{ marginTop: "5%" }} className="btn btn-primary">Video</a>
-                        <a href="https://github.com/angeljrcurtido/Proyecto-pelis-media.git" target='_blank' style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
+                        <a href="https://youtu.be/61hknSVA8dQ" target='_blank' rel="noreferrer" style={{ marginTop: "5%" }} className="btn btn-primary">Video</a>
+                        <a href="https://github.com/angeljrcurtido/Proyecto-pelis-media.git" target='_blank' rel="noreferrer" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
                 </div>
             </div>
