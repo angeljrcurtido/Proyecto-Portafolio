@@ -43,12 +43,12 @@ function Portafolio() {
 
     return (
 
-        <div className='body' >
+           <div className='body' >
             {/*INICIO CABECERA*/}
             <header id="header">
-                <div class="wrap">
+                <div className="wrap">
                     <div id="logo">
-                        <span class="gear">S</span>
+                        <span className="gear">S</span>
                         <h3>PORTAFOLIO</h3>
                     </div>
                     <nav id="menu">
@@ -128,7 +128,7 @@ function Portafolio() {
                 </div>
             </div>
 
-            <div class="skills">
+            <div className="skills">
 
                 <div className='misservicios'>
                     <h2>Mis Skills</h2>
@@ -190,31 +190,31 @@ function Portafolio() {
             </div>
 
             <div className='Proyectos' id='proyectos2'>
-                <div class="card" style={{ width: "18rem" }}>
-                    <img src={rickandmorty} class="card-img-top" alt="..." />
+                <div className="card" style={{ width: "18rem" }}>
+                    <img src={rickandmorty} className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">APIRest RickandMorty</h5>
                         <p className="card-title">React Js, APIRest, Boostratp,FlexBox</p>
-                        <a href="https://incandescent-entremet-8c4174.netlify.app" target='_blank' rel="noreferrer" style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
-                        <a href="https://github.com/angeljrcurtido/Rickandmorty" target='_blank' rel="noreferrer" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
+                        <a href="https://incandescent-entremet-8c4174.netlify.app"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
+                        <a href="https://github.com/angeljrcurtido/Rickandmorty"  style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
                 </div>
-                <div class="card" style={{ width: "18rem" }}>
-                    <img src={frontend} class="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
+                <div className="card" style={{ width: "18rem" }}>
+                    <img src={frontend} className="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">FrontEnd Proyect</h5>
                         <p className="card-title">CSS, Flexbox, Boostratp, Sass, Js</p>
-                        <a href="https://stellar-hotteok-29adaf.netlify.app" target='_blank' rel="noreferrer" style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
-                        <a href="https://github.com/angeljrcurtido/Maquetacion-FrontEnd" target='_blank' rel="noreferrer" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
+                        <a href="https://stellar-hotteok-29adaf.netlify.app"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
+                        <a href="https://github.com/angeljrcurtido/Maquetacion-FrontEnd"  style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
                 </div>
-                <div class="card" style={{ width: "18rem" }}>
-                    <img src={pelismedia} class="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
+                <div className="card" style={{ width: "18rem" }}>
+                    <img src={pelismedia} className="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Pelis Media</h5>
                         <p className="card-title">React Js, Node Js, Mongoose, Boostratp, JavaScript, </p>
-                        <a href="https://youtu.be/61hknSVA8dQ" target='_blank' rel="noreferrer" style={{ marginTop: "5%" }} className="btn btn-primary">Video</a>
-                        <a href="https://github.com/angeljrcurtido/Proyecto-pelis-media.git" target='_blank' rel="noreferrer" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
+                        <a href="https://youtu.be/61hknSVA8dQ"  style={{ marginTop: "5%" }} className="btn btn-primary">Video</a>
+                        <a href="https://github.com/angeljrcurtido/Proyecto-pelis-media.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
                 </div>
             </div>
@@ -225,9 +225,9 @@ function Portafolio() {
                 <Email />
             </div>
             {/*INICIO DE PIE DE PAGINA */}
-            <div class="clearfix"></div>
+            <div className="clearfix"></div>
             <footer id="footer">
-                <div class="wrap2">
+                <div className="wrap2">
                     <div id="menu_footer">
                         <h5>MENÚ</h5>
                         <ul>
@@ -244,22 +244,22 @@ function Portafolio() {
                         </p>
                         <h5>Optimizado para </h5>
                         <p id="browsers">
-                            <a>
+                            <a href="#inicio">
                                 <img src={firefox} alt="Firefox" title="Firefox" />
                             </a>
-                            <a>
+                            <a href="#inicio">
                                 <img src={chrome} alt="Chrome" title="Chrome" />
                             </a>
-                            <a>
+                            <a href="#inicio">
                                 <img src={opera} alt="Opera" title="Opera" />
                             </a>
-                            <a>
+                            <a href="#inicio">
                                 <img src={safari} alt="Safari" title="Safari" />
                             </a>
-                            <a>
+                            <a href="#inicio">
                                 <img src={android} alt="Android" title="Android" />
                             </a>
-                            <a>
+                            <a href='#inicio'>
                                 <img src={ios} alt="Apple" title="Apple" />
                             </a>
 
@@ -271,7 +271,6 @@ function Portafolio() {
             </footer>
             {/*FIN DE PIE DE PAGINA */}
         </div>
-
     );
 
 }
