@@ -213,7 +213,7 @@ function Portafolio() {
                     <div className="card-body">
                         <h5 className="card-title">Pelis Media</h5>
                         <p className="card-title">React Js, Node Js, Mongoose, Boostratp, JavaScript, </p>
-                        <a href="https://youtu.be/61hknSVA8dQ"  style={{ marginTop: "5%" }} className="btn btn-primary">Video</a>
+                        <a href="http://44.210.111.255/registro"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
                         <a href="https://github.com/angeljrcurtido/Proyecto-pelis-media.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
                 </div>
