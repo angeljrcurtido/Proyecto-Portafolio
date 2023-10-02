@@ -9,6 +9,7 @@ import logohtml from '../imagenes/logohtml.png';
 import logocss from '../imagenes/logocss.png';
 import logoboost from '../imagenes/logobootstratp.png';
 import rickandmorty from '../imagenes/RICKANDMORTY.PNG';
+import bibliosistem from '../imagenes/SISTEMABIBLIOTECA.PNG';
 import frontend from '../imagenes/FRONTENDWEB.PNG';
 import pelismedia from '../imagenes/PELISMEDIA.PNG'
 import Email from './email';
@@ -217,6 +218,15 @@ function Portafolio() {
                         <a href="https://github.com/angeljrcurtido/Proyecto-pelis-media.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
                 </div>
+                <div className="card" style={{ width: "18rem" }}>
+                    <img src={bibliosistem} className="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Gestion de Biblioteca</h5>
+                        <p className="card-title">React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales email: sistemapro@gmail.com password: 123456789</p>
+                        <a href="https://chimerical-lolly-73d9b9.netlify.app/inicio"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
+                        <a href="https://github.com/angeljrcurtido/Bibliotecaclienteprueba.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
+                    </div>
+                </div>
             </div>
             <div className='contactos'>
                 <div className='misservicios' id='contactos'>
@@ -276,3 +286,4 @@ function Portafolio() {
 }
 
 export default Portafolio;
+
