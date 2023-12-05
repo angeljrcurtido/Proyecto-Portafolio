@@ -6,6 +6,7 @@ import expresslogo from '../imagenes/expresslogo2.png';
 import logoreact from '../imagenes/logoreact.png';
 import logonode from '../imagenes/logonodejs.png';
 import logohtml from '../imagenes/logohtml.png';
+import sistemventa from '../imagenes/SISTEMAVENTAS.PNG';
 import logocss from '../imagenes/logocss.png';
 import logoboost from '../imagenes/logobootstratp.png';
 import rickandmorty from '../imagenes/RICKANDMORTY.PNG';
@@ -224,6 +225,15 @@ function Portafolio() {
                         <h5 className="card-title">Gestion de Biblioteca</h5>
                         <p className="card-title">React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales email: sistemapro@gmail.com password: 123456789</p>
                         <a href="https://chimerical-lolly-73d9b9.netlify.app/inicio"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
+                        <a href="https://github.com/angeljrcurtido/Bibliotecaclienteprueba.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
+                    </div>
+                </div>
+                 <div className="card" style={{ width: "18rem" }}>
+                    <img src={sistemventa} className="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title">Sistema de Ventas</h5>
+                        <p className="card-title">React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales email: Admin password: 12345678</p>
+                        <a href="https://656f82bbbfa59233e1429b5e--inquisitive-parfait-6c2d3e.netlify.app/login"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
                         <a href="https://github.com/angeljrcurtido/Bibliotecaclienteprueba.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
                 </div>
