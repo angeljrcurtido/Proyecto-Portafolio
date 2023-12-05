@@ -223,7 +223,7 @@ function Portafolio() {
                     <img src={bibliosistem} className="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Gestion de Biblioteca</h5>
-                        <p className="card-title">React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales email: sistemapro@gmail.com password: 123456789</p>
+                        <p className="card-title" style={{ fontSize: "12px" }}>React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales email: sistemapro@gmail.com password: 123456789</p>
                         <a href="https://chimerical-lolly-73d9b9.netlify.app/inicio"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
                         <a href="https://github.com/angeljrcurtido/Bibliotecaclienteprueba.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
