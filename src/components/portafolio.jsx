@@ -223,7 +223,7 @@ function Portafolio() {
                     <img src={bibliosistem} className="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Gestion de Biblioteca</h5>
-                        <p className="card-title" style={{ fontSize: "12px" }}>React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales email: sistemapro@gmail.com password: 123456789</p>
+                        <p className="card-title" style={{ fontSize: "12px" }}>React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales Email: sistemapro@gmail.com | Password: 123456789</p>
                         <a href="https://chimerical-lolly-73d9b9.netlify.app/inicio"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
                         <a href="https://github.com/angeljrcurtido/Bibliotecaclienteprueba.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
@@ -232,7 +232,7 @@ function Portafolio() {
                     <img src={sistemventa} className="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Sistema de Ventas</h5>
-                        <p className="card-title" style={{ fontSize: "12px" }}>React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales User: Admin |Password: 12345678</p>
+                        <p className="card-title" style={{ fontSize: "12px" }}>React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales User: Admin | Password: 12345678</p>
                         <a href="https://656f82bbbfa59233e1429b5e--inquisitive-parfait-6c2d3e.netlify.app/login"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
                         <a href="https://github.com/angeljrcurtido/Sistema-de-Ventas.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
