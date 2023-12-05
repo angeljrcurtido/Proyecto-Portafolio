@@ -232,7 +232,7 @@ function Portafolio() {
                     <img src={sistemventa} className="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Sistema de Ventas</h5>
-                        <p className="card-title">React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales email: Admin password: 12345678</p>
+                        <p className="card-title" style={{ fontSize: "12px" }}>React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales email: Admin password: 12345678</p>
                         <a href="https://656f82bbbfa59233e1429b5e--inquisitive-parfait-6c2d3e.netlify.app/login"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
                         <a href="https://github.com/angeljrcurtido/Sistema-de-Ventas.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
                     </div>
