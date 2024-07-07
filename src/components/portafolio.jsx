@@ -7,6 +7,7 @@ import logoreact from '../imagenes/logoreact.png';
 import logonode from '../imagenes/logonodejs.png';
 import logohtml from '../imagenes/logohtml.png';
 import sistemventa from '../imagenes/SISTEMAVENTAS.PNG';
+import sistemaventa2 from '../imagenes/SISTEMAVENTAS2.jpg'
 import logocss from '../imagenes/logocss.png';
 import logoboost from '../imagenes/logobootstratp.png';
 import rickandmorty from '../imagenes/RICKANDMORTY.PNG';
@@ -236,12 +237,12 @@ function Portafolio() {
                     </div>
                 </div>
                  <div className="card" style={{ width: "18rem" }}>
-                    <img src={sistemventa} className="card-img-top" style={{ width: "286px", height: "145.72px" }} alt="..." />
+                    <img src={sistemaventa2} className="card-img-top" style={{ width: "200px", height: "120px" }} alt="..." />
                     <div className="card-body">
-                        <h5 className="card-title">Sistema de Ventas V2 Ejecutable</h5>
-                        <p className="card-title" style={{ fontSize: "12px" }}>React Js, Node Js, Mongoose, Boostratp, JavaScript, Credenciales User: Admin | Password: 12345678</p>
-                        <a href="https://656f82bbbfa59233e1429b5e--inquisitive-parfait-6c2d3e.netlify.app/login"  style={{ marginTop: "5%" }} className="btn btn-primary">Demo</a>
-                        <a href="https://github.com/angeljrcurtido/Sistema-de-Ventas.git" style={{ marginLeft: "5%", marginTop: "5%" }} className="btn btn-primary">Code</a>
+                        <h5 className="card-title">Sistema de Ventas EXE</h5>
+                        <p className="card-title" style={{ fontSize: "12px" }}>React Js, Node Js, Mongoose, Tailwind, Electron, JavaScript, Credenciales</p>
+                        <a href="https://mega.nz/folder/0LUnGaLa#mUo1Qa4fT0D7meOaotlJgA"  style={{ marginTop: "5%" }} className="btn btn-primary">Download</a>
+                        
                     </div>
                 </div>
             </div>
